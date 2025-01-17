@@ -15,13 +15,13 @@ function Hero() {
                         </h1>
                         <p className=' max-w-440 mb-14 body-1 max-md:mb-10'>we designed XORA Ai video Editor to be an easy to use ,wquick to learn, and surprisingly powerful</p>
                         <LinkScroll to='features' offset={-100} spy={true} smooth={true}>
-                            <Button icon='/public/images/zap.svg'>
+                            <Button icon='images/zap.svg'>
                                 Try it now
                             </Button>
                         </LinkScroll>
                     </div>
                     <div className=' absolute -top-32 left-[calc(50%-380px)] w-[1230px] pointer-events-none hero-img_res'>
-                        <img src="/public/images/hero.png" alt="/public/images/hero.png" className=' size-1230 max-lg:h-auto' />
+                        <img src="images/hero.png" alt="images/hero.png" className=' size-1230 max-lg:h-auto' />
                     </div>
                 </div>
             </Element>
